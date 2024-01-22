@@ -9,41 +9,22 @@ using namespace std;
 
 class Solution {
 public:
-  vector<string> fizzBuzz(int n)
+  int numberOfSteps(int num)
   {
-    vector<string> res;
-
-    for (int i = 1; i <= n; i++)
+    char steps = 0;
+    while (num != 0)
     {
- 
-
-      bool dividedByThree = !(i % 3);
-      bool dividedByFive = !(i % 5);
-      string s;
-
-      if(dividedByThree)
+      steps++;
+      if (num % 2 == 0)
       {
-        s += "Fizz";
-      }
-
-      if (dividedByFive)
-      {
-        s += "Buzz";
-      }
-
-      if (s.empty())
-      {
-        res.push_back(to_string(i));
+        num /= 2;
       }
       else
       {
-        res.push_back(s);
+        num -= 1;
       }
-
-      
-
     }
-    return res;
+    return steps;
   }
 };
 
@@ -61,7 +42,7 @@ int main()
   /* Recording the starting clock tick.*/
   start = clock();
 
-  auto r = s.fizzBuzz(1000);
+  auto numnerOfSteps = s.numberOfSteps(14);
 
   // Recording the end clock tick.
   end = clock();
@@ -72,14 +53,7 @@ int main()
     << time_taken << setprecision(5);
   cout << " sec " << endl;
 
-  cout << "[";
-  for (auto const& el : r)
-  {
-    if (el.compare(r.at(0)) != 0) cout << ",";
-    cout << el;
-  }
-  cout << "]";
-  cout << endl;
+  printf("steps amount is = %d\n", numnerOfSteps);
   return 0;
 };
 

@@ -7,43 +7,28 @@
 
 using namespace std;
 
+// Definition for singly-linked list.
+struct ListNode
+{
+  int val;
+  ListNode* next;
+  ListNode() : val(0), next(nullptr) {}
+  ListNode(int x) : val(x), next(nullptr) {}
+  ListNode(int x, ListNode* next) : val(x), next(next) {}
+};
+
 class Solution {
 public:
-  vector<string> fizzBuzz(int n)
+  ListNode* middleNode(ListNode* head)
   {
-    vector<string> res;
-
-    for (int i = 1; i <= n; i++)
+    auto fast = head;
+    auto slow = head;
+    while (fast && fast->next)
     {
- 
-
-      bool dividedByThree = !(i % 3);
-      bool dividedByFive = !(i % 5);
-      string s;
-
-      if(dividedByThree)
-      {
-        s += "Fizz";
-      }
-
-      if (dividedByFive)
-      {
-        s += "Buzz";
-      }
-
-      if (s.empty())
-      {
-        res.push_back(to_string(i));
-      }
-      else
-      {
-        res.push_back(s);
-      }
-
-      
-
+      fast = fast->next->next;
+      slow = slow->next;
     }
-    return res;
+    return slow;
   }
 };
 
@@ -61,7 +46,15 @@ int main()
   /* Recording the starting clock tick.*/
   start = clock();
 
-  auto r = s.fizzBuzz(1000);
+  ListNode* head = new ListNode(1);
+  auto cur = head;
+  for (int i = 2; i <= 5000; i++)
+  {
+    cur->next = new ListNode(i);
+    cur = cur->next;
+  }
+
+  auto res = s.middleNode(head);
 
   // Recording the end clock tick.
   end = clock();
@@ -72,14 +65,13 @@ int main()
     << time_taken << setprecision(5);
   cout << " sec " << endl;
 
-  cout << "[";
-  for (auto const& el : r)
+  printf("steps amount is = %d\n", res->val);
+  while (head)
   {
-    if (el.compare(r.at(0)) != 0) cout << ",";
-    cout << el;
+    auto next = head->next;
+    delete head;
+    head = next;
   }
-  cout << "]";
-  cout << endl;
   return 0;
 };
 
