@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiddleOfTheLinkedList", "..
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RansomNote", "..\RansomNote\RansomNote.vcxproj", "{B3EC367F-2A5D-4A44-B2A3-3C1DB9BF7613}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeStringsAlternatly", "..\MergeStringsAlternatly\MergeStringsAlternatly.vcxproj", "{789E68A2-B55D-4C94-8728-0F4CFDF41887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B3EC367F-2A5D-4A44-B2A3-3C1DB9BF7613}.Release|x64.Build.0 = Release|x64
 		{B3EC367F-2A5D-4A44-B2A3-3C1DB9BF7613}.Release|x86.ActiveCfg = Release|Win32
 		{B3EC367F-2A5D-4A44-B2A3-3C1DB9BF7613}.Release|x86.Build.0 = Release|Win32
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Debug|x64.ActiveCfg = Debug|x64
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Debug|x64.Build.0 = Debug|x64
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Debug|x86.ActiveCfg = Debug|Win32
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Debug|x86.Build.0 = Debug|Win32
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Release|x64.ActiveCfg = Release|x64
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Release|x64.Build.0 = Release|x64
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Release|x86.ActiveCfg = Release|Win32
+		{789E68A2-B55D-4C94-8728-0F4CFDF41887}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

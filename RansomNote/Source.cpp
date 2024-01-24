@@ -21,7 +21,7 @@ public:
 
     for (auto c : ransomNote)
     {
-      if (m.find(c) != m.end() m[c])
+      if (m.find(c) != m.end() && m[c])
       {
         m[c]--;
         continue;
