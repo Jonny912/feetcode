@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeStringsAlternatly", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicates", "..\RemoveDuplicates\RemoveDuplicates.vcxproj", "{56E4F509-02FB-4FCB-A4AA-907B73461369}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BestStockTime", "..\BestStockTime\BestStockTime.vcxproj", "{8325FAD9-7D92-4059-8305-28D872ED2080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{56E4F509-02FB-4FCB-A4AA-907B73461369}.Release|x64.Build.0 = Release|x64
 		{56E4F509-02FB-4FCB-A4AA-907B73461369}.Release|x86.ActiveCfg = Release|Win32
 		{56E4F509-02FB-4FCB-A4AA-907B73461369}.Release|x86.Build.0 = Release|Win32
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Debug|x64.ActiveCfg = Debug|x64
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Debug|x64.Build.0 = Debug|x64
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Debug|x86.ActiveCfg = Debug|Win32
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Debug|x86.Build.0 = Debug|Win32
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Release|x64.ActiveCfg = Release|x64
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Release|x64.Build.0 = Release|x64
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Release|x86.ActiveCfg = Release|Win32
+		{8325FAD9-7D92-4059-8305-28D872ED2080}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
