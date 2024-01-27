@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BestStockTime", "..\BestSto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotateArray", "..\RotateArray\RotateArray.vcxproj", "{C6D7E453-8E4C-4828-94C4-E9F1B26C7404}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainsDuplicate", "..\ContainsDuplicate\ContainsDuplicate.vcxproj", "{96F4F227-4B83-405C-ABDC-650F2E6465DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{C6D7E453-8E4C-4828-94C4-E9F1B26C7404}.Release|x64.Build.0 = Release|x64
 		{C6D7E453-8E4C-4828-94C4-E9F1B26C7404}.Release|x86.ActiveCfg = Release|Win32
 		{C6D7E453-8E4C-4828-94C4-E9F1B26C7404}.Release|x86.Build.0 = Release|Win32
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Debug|x64.ActiveCfg = Debug|x64
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Debug|x64.Build.0 = Debug|x64
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Debug|x86.Build.0 = Debug|Win32
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Release|x64.ActiveCfg = Release|x64
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Release|x64.Build.0 = Release|x64
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Release|x86.ActiveCfg = Release|Win32
+		{96F4F227-4B83-405C-ABDC-650F2E6465DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
