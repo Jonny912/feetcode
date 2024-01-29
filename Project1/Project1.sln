@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainsDuplicate", "..\Con
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleNumber", "..\SingleNumber\SingleNumber.vcxproj", "{97DEBE9E-B287-4232-94CC-67016A34EA29}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntersectionOfTwoArraysII", "..\IntersectionOfTwoArraysII\IntersectionOfTwoArraysII.vcxproj", "{FCC466BE-4704-415E-9873-EEECC5351EEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{97DEBE9E-B287-4232-94CC-67016A34EA29}.Release|x64.Build.0 = Release|x64
 		{97DEBE9E-B287-4232-94CC-67016A34EA29}.Release|x86.ActiveCfg = Release|Win32
 		{97DEBE9E-B287-4232-94CC-67016A34EA29}.Release|x86.Build.0 = Release|Win32
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Debug|x64.ActiveCfg = Debug|x64
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Debug|x64.Build.0 = Debug|x64
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Debug|x86.Build.0 = Debug|Win32
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Release|x64.ActiveCfg = Release|x64
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Release|x64.Build.0 = Release|x64
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Release|x86.ActiveCfg = Release|Win32
+		{FCC466BE-4704-415E-9873-EEECC5351EEE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
