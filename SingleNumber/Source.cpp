@@ -25,16 +25,25 @@ public:
     //  }
     //}
     // Time = O(n), Space = O(n);
-    unordered_set<int> s;
-    for (auto cur = nums.begin(); cur != nums.end(); cur++)
+    //unordered_set<int> s;
+    //for (auto cur = nums.begin(); cur != nums.end(); cur++)
+    //{
+    //  auto res = s.insert(*cur);
+    //  if (!res.second)
+    //  {
+    //    s.erase(*cur);
+    //  }
+    //}
+    //return *s.begin();
+    // Time(n), Space(1)
+    // XOR
+    //
+    unsigned res = 0;
+    for (int i = 0; i < nums.size(); i++)
     {
-      auto res = s.insert(*cur);
-      if (!res.second)
-      {
-        s.erase(*cur);
-      }
+      res = res ^ nums[i];
     }
-    return *s.begin();
+    return res;
   }
 };
 
@@ -52,7 +61,7 @@ int main()
   /* Recording the starting clock tick.*/
   start = clock();
 
-  vector<int> v = { 1, 2, 3, 4, 1, 2, 3};
+  vector<int> v = { 1, 2, 3, 4, 4, 7, 1, 2, 3};
   auto r = s.singleNumber(v);
 
   // Recording the end clock tick.
