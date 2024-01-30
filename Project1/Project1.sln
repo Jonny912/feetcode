@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlusOne", "..\PlusOne\PlusO
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoveZeroes", "..\MoveZeroes\MoveZeroes.vcxproj", "{8725318B-0C21-4E8F-AA1C-F21165E4A07B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "..\TwoSum\TwoSum.vcxproj", "{418D323D-EADE-448C-ADFB-35E1636FF452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{8725318B-0C21-4E8F-AA1C-F21165E4A07B}.Release|x64.Build.0 = Release|x64
 		{8725318B-0C21-4E8F-AA1C-F21165E4A07B}.Release|x86.ActiveCfg = Release|Win32
 		{8725318B-0C21-4E8F-AA1C-F21165E4A07B}.Release|x86.Build.0 = Release|Win32
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Debug|x64.ActiveCfg = Debug|x64
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Debug|x64.Build.0 = Debug|x64
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Debug|x86.ActiveCfg = Debug|Win32
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Debug|x86.Build.0 = Debug|Win32
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Release|x64.ActiveCfg = Release|x64
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Release|x64.Build.0 = Release|x64
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Release|x86.ActiveCfg = Release|Win32
+		{418D323D-EADE-448C-ADFB-35E1636FF452}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
