@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotateImage", "..\RotateIma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseString", "..\ReverseString\ReverseString.vcxproj", "{C0D5DB57-6FBC-488F-B26C-7351D8AF9C48}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInteger", "..\ReverseInteger\ReverseInteger.vcxproj", "{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{C0D5DB57-6FBC-488F-B26C-7351D8AF9C48}.Release|x64.Build.0 = Release|x64
 		{C0D5DB57-6FBC-488F-B26C-7351D8AF9C48}.Release|x86.ActiveCfg = Release|Win32
 		{C0D5DB57-6FBC-488F-B26C-7351D8AF9C48}.Release|x86.Build.0 = Release|Win32
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Debug|x64.ActiveCfg = Debug|x64
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Debug|x64.Build.0 = Debug|x64
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Debug|x86.Build.0 = Debug|Win32
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x64.ActiveCfg = Release|x64
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x64.Build.0 = Release|x64
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x86.ActiveCfg = Release|Win32
+		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
