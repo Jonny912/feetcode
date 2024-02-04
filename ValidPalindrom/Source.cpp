@@ -13,23 +13,28 @@ using namespace std;
 
 class Solution {
 public:
-  int reverseInteger(int x) {
-    // Solution #1 
-    auto s = to_string(x);
-    vector<char> v(s.begin(), s.end()); v.push_back(0);
-    auto first = v.begin();
-    if (*first == '-') {
-      first++;
+  bool isPalindrome(string s) {
+    string::iterator It1 = s.begin();
+    string::iterator It2 = s.end() - 1;
+    while (It1 < It2) {
+      if (!isalnum(*It1)) {
+        It1++;
+      }
+      else if (!isalnum(*It2)) {
+        It2--;
+      }
+      else if (tolower(*It1) != tolower(*It2)) {
+        return false;
+      }
+      else {
+        It1++;
+        It2--;
+      }
     }
-    std::reverse(first, v.end() - 1);
-    auto i = atoll(& v[0]);
-
-    if (i > INT32_MAX || i < INT32_MIN) {
-      return 0;
-    }
-    return static_cast<int>(i);
+    return true;
   }
 };
+
 static int GetRandomNumber(int min, int max)
 {
   // Get a random number - formula
@@ -53,10 +58,8 @@ int main()
   /* Recording the starting clock tick.*/
   start = clock();
 
-  // Make test input
-  int x = 1534236469;
   Solution s;
-  auto res = s.reverseInteger(x);
+  auto res = s.isPalindrome("A man, a plan, a canal : Panama");
 
   // Recording the end clock tick.
   end = clock();
