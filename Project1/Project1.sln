@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseString", "..\Reverse
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInteger", "..\ReverseInteger\ReverseInteger.vcxproj", "{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstUniqChar", "..\FirstUniqChar\FirstUniqChar.vcxproj", "{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x64.Build.0 = Release|x64
 		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x86.ActiveCfg = Release|Win32
 		{AC6B1A59-BC06-40D3-8737-5CFBE786FEF6}.Release|x86.Build.0 = Release|Win32
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Debug|x64.ActiveCfg = Debug|x64
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Debug|x64.Build.0 = Debug|x64
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Debug|x86.ActiveCfg = Debug|Win32
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Debug|x86.Build.0 = Debug|Win32
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Release|x64.ActiveCfg = Release|x64
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Release|x64.Build.0 = Release|x64
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Release|x86.ActiveCfg = Release|Win32
+		{F420C37A-FF4C-41E9-AC95-DFD5BC2D6749}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
