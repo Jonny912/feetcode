@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringToInteger", "..\Strin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strStr", "..\strStr\strStr.vcxproj", "{D7267E51-5D88-45D1-AF36-2FF00EF3E168}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonPrefix", "..\LongestCommonPrefix\LongestCommonPrefix.vcxproj", "{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{D7267E51-5D88-45D1-AF36-2FF00EF3E168}.Release|x64.Build.0 = Release|x64
 		{D7267E51-5D88-45D1-AF36-2FF00EF3E168}.Release|x86.ActiveCfg = Release|Win32
 		{D7267E51-5D88-45D1-AF36-2FF00EF3E168}.Release|x86.Build.0 = Release|Win32
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Debug|x64.ActiveCfg = Debug|x64
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Debug|x64.Build.0 = Debug|x64
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Debug|x86.Build.0 = Debug|Win32
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x64.ActiveCfg = Release|x64
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x64.Build.0 = Release|x64
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x86.ActiveCfg = Release|Win32
+		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
