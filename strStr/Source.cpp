@@ -14,11 +14,10 @@ using namespace std;
 class Solution {
 public:
   int strStr(string haystack, string needle) {
-    if (haystack.find(needle) <= haystack.size()) {
-      return static_cast<int>(haystack.find(needle));
-    }
-    return -1;
+    // Fast STL solution => Time: O(n), Space: O(1)
+    // return static_cast<int>(haystack.find(needle));
 
+    // Sliding window algorithm => Time: O(n), Space: O(1) 
     if (haystack.size() < needle.size()) {
       return -1;
     }
