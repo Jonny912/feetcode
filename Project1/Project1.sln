@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strStr", "..\strStr\strStr.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonPrefix", "..\LongestCommonPrefix\LongestCommonPrefix.vcxproj", "{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeleteNodeInLinkedList", "..\DeleteNodeInLinkedList\DeleteNodeInLinkedList.vcxproj", "{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x64.Build.0 = Release|x64
 		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x86.ActiveCfg = Release|Win32
 		{58B3E65D-A3CE-477C-B4DB-F83EEA0A4B8D}.Release|x86.Build.0 = Release|Win32
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Debug|x64.ActiveCfg = Debug|x64
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Debug|x64.Build.0 = Debug|x64
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Debug|x86.Build.0 = Debug|Win32
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Release|x64.ActiveCfg = Release|x64
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Release|x64.Build.0 = Release|x64
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Release|x86.ActiveCfg = Release|Win32
+		{28F1D63C-B1D9-4744-8E4F-0ECE262252F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
