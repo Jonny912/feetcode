@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveNthNode", "..\RemoveN
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "..\UnitTests\UnitTests.vcxproj", "{0F2B6EBA-8009-4C86-A93E-A74E61420D5F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseList", "..\ReverseList\ReverseList.vcxproj", "{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{0F2B6EBA-8009-4C86-A93E-A74E61420D5F}.Release|x64.Build.0 = Release|x64
 		{0F2B6EBA-8009-4C86-A93E-A74E61420D5F}.Release|x86.ActiveCfg = Release|Win32
 		{0F2B6EBA-8009-4C86-A93E-A74E61420D5F}.Release|x86.Build.0 = Release|Win32
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Debug|x64.ActiveCfg = Debug|x64
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Debug|x64.Build.0 = Debug|x64
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Debug|x86.Build.0 = Debug|Win32
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x64.ActiveCfg = Release|x64
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x64.Build.0 = Release|x64
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x86.ActiveCfg = Release|Win32
+		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
