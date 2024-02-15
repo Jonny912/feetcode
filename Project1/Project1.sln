@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "..\UnitTests\U
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseList", "..\ReverseList\ReverseList.vcxproj", "{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeTwoSortedLists", "..\MergeTwoSortedLists\MergeTwoSortedLists.vcxproj", "{80754150-C5A1-4A57-A3A6-7A78117B4261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x64.Build.0 = Release|x64
 		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x86.ActiveCfg = Release|Win32
 		{FE0631A8-5581-4E46-AE93-F210C1A0B7EF}.Release|x86.Build.0 = Release|Win32
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Debug|x64.ActiveCfg = Debug|x64
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Debug|x64.Build.0 = Debug|x64
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Debug|x86.ActiveCfg = Debug|Win32
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Debug|x86.Build.0 = Debug|Win32
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Release|x64.ActiveCfg = Release|x64
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Release|x64.Build.0 = Release|x64
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Release|x86.ActiveCfg = Release|Win32
+		{80754150-C5A1-4A57-A3A6-7A78117B4261}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
